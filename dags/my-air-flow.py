@@ -22,7 +22,7 @@ APP_CONFIG = {
          "workerConfiguration": { 
             "cpu": "4vCPU",
             "disk": "20Gb",
-            "memory": "8Gb"
+            "memory": "12Gb"
          },
          "workerCount": 1
       },
@@ -36,9 +36,9 @@ APP_CONFIG = {
       },
    },
    "maximumCapacity": { 
-      "cpu": "16vcpu",
-      "disk": "60gb",
-      "memory": "50gb"
+      "cpu": "20vcpu",
+      "disk": "200gb",
+      "memory": "200gb"
    },
 }
 

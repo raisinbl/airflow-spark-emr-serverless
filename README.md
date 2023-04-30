@@ -33,7 +33,7 @@
   
   ```sh
   cd dags/scripts
-  DOCKER_BUILDKIT=1 docker build --output . . -f Dockerfile
+  DOCKER_BUILDKIT=1 docker build --output . . -f Dockerfile-packing
   chmod 755 dags/scripts/pyspark_venv.tar.gz
   ```
 
