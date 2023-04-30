@@ -1,0 +1,4 @@
+logs/*
+__pycache__/
+pyspark_venv.tar.gz
+data/
