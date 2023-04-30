@@ -157,7 +157,12 @@ def create_bucket_acl(bucket_name):
 # helper function
 def _local_file_to_s3(filename, key, bucket_name):
     s3 = S3Hook()
-    s3.load_file(filename=filename, bucket_name=bucket_name, replace=True, key=key)
+    try:
+        s3.load_file(filename=filename, bucket_name=bucket_name, replace=True, key=key)
+    except PermissionError:
+        # change the permission of the file
+        os.chmod(filename, 0o755)
+        s3.load_file(filename=filename, bucket_name=bucket_name, replace=True, key=key)
 
 def _local_dir_to_s3(local_dir, key, bucket_name):
     s3 = S3Hook()
