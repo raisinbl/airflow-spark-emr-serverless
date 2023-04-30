@@ -23,6 +23,6 @@ scripts
 ## Step
 
 - make sure you are in this `scripts` folder
-- `DOCKER_BUILDKIT=1 docker build --output . . -f dags/scripts/Dockerfile-packing`
+- `DOCKER_BUILDKIT=1 docker build --output . . -f Dockerfile-packing`
 - after execute that command, a file name `pyspark_venv.tar.gz` should be under `scripts` folder
 - `chmod 755 dags/scripts/pyspark_venv.tar.gz`
