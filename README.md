@@ -37,6 +37,8 @@
   chmod 755 dags/scripts/pyspark_venv.tar.gz
   ```
 
+- Change `BUCKET_NAME` in `.env`, that name must be unique
+  
 - Testing task in Airflow:
   - In local(case you don't want to use docker):
     link the project dags dir to airflow dir :`ln -s dags/ ~/airflow/` <br>
