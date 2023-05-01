@@ -1,6 +1,8 @@
 <!---------------------->
 # What is this
 
+A Data Engineer Project that submit Spark job to EMR Serverless using Airflow as Orchestrator that inspried by [this post](https://www.startdataengineering.com/post/how-to-submit-spark-jobs-to-emr-cluster-from-airflow/) but every task in that post I implemented as Airflow task and using brand new EMR Serverless instead EMR Cluster.
+
 # Prequisted
 
 - Docker

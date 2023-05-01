@@ -18,7 +18,6 @@ from utils import create_bucket_acl, create_job_role, delete_job_role, _local_fi
 load_dotenv()
 
 BUCKET_NAME=os.getenv("BUCKET_NAME")
-print(BUCKET_NAME)
 # S3_LOGS_BUCKET = "raisinblack-bk"
 REGION=os.getenv('REGION')
 
