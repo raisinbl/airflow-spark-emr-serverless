@@ -39,7 +39,7 @@ A Data Engineer Project that submit Spark job to EMR Serverless using Airflow as
   chmod 755 dags/scripts/pyspark_venv.tar.gz
   ```
 
-- Change `BUCKET_NAME` in `.env`, that name must be unique
+- Please set `BUCKET_NAME` in `.env`, that name must be unique
   
 - Testing task in Airflow:
   - In local(case you don't want to use docker):
