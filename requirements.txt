@@ -1,3 +1,9 @@
 apache-airflow[aws,docker]==2.5.3
 pandas
 pyspark
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+apache-airflow>=2.8.0b1 # not directly required, pinned by Snyk to avoid a vulnerability
+apache-airflow-providers-imap>=3.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+flask-appbuilder>=4.3.2 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
